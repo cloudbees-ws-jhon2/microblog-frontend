@@ -32,4 +32,4 @@ yarn lint
 | Environment variable | Value | Description |
 | --- | --- | --- |
 | VUE_APP_BASE_API_URL | http://localhost:8000 | URL for the backend api |
-| VUE_APP_ROLLOUT_KEY | YOUR_KEY_HERE | The API key for your Rollout environment |
+| VUE_APP_CLOUDBEES_KEY | YOUR_KEY_HERE | The API key for your CloudBees Feature Management environment |
