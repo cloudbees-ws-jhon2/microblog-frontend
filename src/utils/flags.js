@@ -4,7 +4,7 @@ export const Flags = {
   sidebar: new Rox.Flag(false)
 }
 
-async function initRollout () {
+async function initCloudBees () {
   const options = {
   }
 
@@ -12,6 +12,6 @@ async function initRollout () {
   await Rox.setup(process.env.VUE_APP_CLOUDBEES_KEY, options)
 }
 
-initRollout().then(function () {
-  console.log('Done loading Rollout')
+initCloudBees().then(function () {
+  console.log('Done loading CloudBees Feature Management')
 })
