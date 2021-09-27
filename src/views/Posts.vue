@@ -64,8 +64,6 @@ export default {
     }
   },
   created () {
-    this.getPosts()
-    this.getUsers()
   },
   computed: {
     ...mapGetters([
